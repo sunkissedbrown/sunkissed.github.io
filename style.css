@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 80px;
+}
+
+h1 {
+    font-size: 184px;
+    font-family: 'Marcellus', serif;
+    margin-top: 0px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -120px;
+    margin-left: 380px;
+    position: absolute;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+nav {
+    text-align: right;
+    color: white;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+}
+
+a:hover {
+    color: #f4b5ab;
+}
+
+span:hover {
+    color: #f4b5ab;
+}
+
+img {
+    float: left;
+}
+
+.space {
+    height: 200px;
+}
+
+.profile {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    align-items: flex-end;
+    margin-left: 400px;
+}
+
+form {
+    font-size: 20px;
+}
+
+textarea  {
+    width:60%;
+    resize: vertical;
+    padding:15px;
+    border-radius:5px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+  }
+
+  .formfield  {
+    width:20%;
+    resize: vertical;
+    padding:15px;
+    border-radius:5px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:10px;
+  }
