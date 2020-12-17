@@ -1,44 +1,96 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #E0DBD0;
+    color: brown;
     margin: 80px;
 }
 
+.cover {
+    position: relative;
+    text-align: center;
+  }
+
+.arrow {
+    font-family: 'Codystar', cursive;
+    color: black;
+}
+
+.jayne-pic1 {
+    width: 35%;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
-    font-size: 184px;
+    font-size: 104px;
     font-family: 'Marcellus', serif;
-    margin-top: 0px;
+    font-weight: 100;
+    text-align: center;
+    color: #C4A386;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 104px;
+    font-family: 'Marcellus', serif;
+    font-weight: 100;
+    text-align: center;
+    color: #33302b;
+    margin: 0px;
+}
+
+h3 {
+    text-align: center;
+    color:#33302b;
+    font-family: 'Marcellus', serif;
+    font-size: 44px;
 }
 
 h4 {
     text-align: center;
     font-size: 30px;
-    margin-top: -120px;
-    margin-left: 380px;
-    position: absolute;
+    color: #967740;
+    font-weight: 100;
 }
 
-p {
-    font-size: 22px;
+.material-icons {
+    font-size: 60px;
+}
+
+#section2 {
+    font-size: 20px;
     text-align: justify;
-}
-nav {
-    text-align: right;
-    color: white;
+    margin: auto;
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    color: #33302b;
 }
 
-nav > ul > li {
-    list-style: none;
-    display: inline-flex;
+.jayne-pic2 {
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.flex-menu {
+    display: flex;
     justify-content: space-between;
-    width: 60px;
+    font-family: 'Marcellus', serif;
+    color: #33302b;
 }
 
 a {
-    color: white;
-    font-size: 20px;
     text-decoration: none;
-    font-family: 'Marcellus', serif;
 }
 
 a:hover {
@@ -47,128 +99,9 @@ a:hover {
 
 span:hover {
     color: #f4b5ab;
-}
-
-img {
-    float: left;
+    cursor:default;
 }
 
 .space {
-    height: 200px;
-}
-
-.profile {
-    display: flex;
-    width: 600px;
-    height: 500px;
-    align-items: flex-end;
-    margin-left: 400px;
-}
-
-textarea  {
-    width:60%;
-    resize: vertical;
-    padding:15px;
-    border-radius:5px;
-    border:0;
-    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
-    height:150px;
-  }
-
-
-  /* icon: https://fortawesome.github.io/Font-Awesome/icons/ */
-/* Animation: https://daneden.github.io/animate.css/ */
-  
-  .arrow-container{
-    width: 100px;
     height: 100px;
-    margin: 0 auto;
-    position: absolute;
-    bottom: 25px;
-    left: 0;
-    right: 0;
-  }
-  
-  .arrow-1{
-    width: 100px;
-    height: 100px;
-    background: #00BCD4;
-    opacity: 0.5;
-    border-radius: 50%;
-    position: absolute;
-  }
-  
-  .arrow-2{
-    width: 60px;
-    height: 60px;
-    background: #00BCD4;
-    border-radius: 50%;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-    display: table;
-  }
-  
-  .arrow-2:before{
-    width: 52px;
-    height: 52px;
-    content: "";
-    border: 2px solid #006064;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-  }
-  
-  .arrow-2 i.fa{
-    font-size: 30px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    color: #006064;
-  }
-  
-  /* Custom Animate.css */
-  
-  .animated.hinge {
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-  }
-  
-  @-webkit-keyframes zoomIn {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale3d(.4, .4, .4);
-              transform: scale3d(.4, .4, .4);
-    }
-  
-    50% {
-      opacity: 0.5;
-    }
-    
-    100% {
-      opacity: 0;
-    }
-  }
-  
-  @keyframes zoomIn {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale3d(.4, .4, .4);
-              transform: scale3d(.4, .4, .4);
-    }
-  
-    50% {
-      opacity: 0.5;
-    }
-    
-    100% {
-      opacity: 0;
-    }
-  }
-  
-  .zoomIn {
-    -webkit-animation-name: zoomIn;
-            animation-name: zoomIn;
-  }
+}
